@@ -1,6 +1,6 @@
 import Dashboard from "./views/Dashboard.js";
-import Post from "./views/Post.js";
-import Setting from "./views/Setting.js";
+import Post from "./views/Posts.js";
+import Setting from "./views/Settings.js";
 
 const navigateTo = (url) => {
   history.pushState(null, null, url);
