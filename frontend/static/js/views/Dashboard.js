@@ -3,7 +3,7 @@ import AbstractView from "./AbstractView.js";
 class Dashboard extends AbstractView {
   constructor() {
     super();
-    this.setTitle("Dashboard");
+    this.setTitle("Painel de Controle");
   }
 
   async getHtml() {
@@ -16,7 +16,7 @@ class Dashboard extends AbstractView {
           anim laborum sit amet Lorem adipisicing ullamco duis. Anim in do magna
           ea pariatur et.
         </p>
-        <p><a href="/posts" data-link>View recent posts</a>.</p>
+        <p><a href="/posts" data-link>Visualizar posts recentes</a>.</p>
       </div>
     `;
     return htmlContent;

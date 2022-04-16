@@ -3,7 +3,7 @@ import AbstractView from "./AbstractView.js";
 class Setting extends AbstractView {
   constructor() {
     super();
-    this.setTitle("Setting");
+    this.setTitle("Configurações");
   }
 
   async getHtml() {
@@ -24,7 +24,7 @@ class Setting extends AbstractView {
           Etiam nulla felis, volutpat eu augue lacinia, sollicitudin porta
           sapien.
         </p>
-        <p><a href="/posts" data-link>View recent posts</a>.</p>
+        <p><a href="/posts" data-link>Visualizar posts recentes</a>.</p>
       </div>
     `;
     return htmlContent;
